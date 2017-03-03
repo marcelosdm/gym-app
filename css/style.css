@@ -1,0 +1,65 @@
+body {
+	font-size: 100%;
+}
+
+#logo {
+	height: 50%;
+	width: 50%;
+}
+
+.bg-head {
+	background: linear-gradient(
+		rgba(31, 31, 81, 0.6),
+		rgba(31, 31, 81, 0.9)
+		),
+	url(../img/kettlebell.jpeg);
+	background-position: 5% 70%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+}
+
+.fixed-top {
+	// position: static;
+	width: 100%;
+	z-index: 2;
+	padding-top: 5%;
+}
+
+.title {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-title {
+	text-align: left;
+	padding: 20px;
+}
+
+#btn-add {
+	// margin-top: 10%;
+	// overflow: visible;
+}
+
+.section  {
+	padding: 20px;
+}
+
+.section-title {
+	color: #afb7c8;
+}
+
+.ex-title label {
+	font-size: 1.5em;
+	color: #494980;
+}
+
+.ex-icon {
+	margin-right: 10px;
+	position: absolute;
+}
+
+.ex-desc {
+	font-size: 1.3em;
+	color: #afb7cb;
+}
