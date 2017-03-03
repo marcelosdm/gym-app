@@ -7,7 +7,7 @@ body {
 	width: 50%;
 }
 
-.bg-head {
+.header {
 	background: linear-gradient(
 		rgba(31, 31, 81, 0.6),
 		rgba(31, 31, 81, 0.9)
@@ -47,9 +47,10 @@ body {
 
 .section-title {
 	color: #afb7c8;
+	margin: 1em;
 }
 
-.ex-title label {
+.avatar span {
 	font-size: 1.5em;
 	color: #494980;
 }
